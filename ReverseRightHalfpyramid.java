@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Pattern1 {
+public class ReverseRightHalfpyramid {
     public static void main(String[] args) {
         Scanner in= new Scanner(System.in);
         System.out.println("enter n:  ");
