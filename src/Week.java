@@ -13,7 +13,7 @@ public class Week {
             case 5 -> System.out.println("Thursday");
             case 6 -> System.out.println("Friday");
             case 7 -> System.out.println("Saturday");
-            default-> System.out.println("invalid number");
+            default-> System.out.println("invalid number lol");
         }
     }
 }
