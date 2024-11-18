@@ -5,6 +5,9 @@ public class Week {
         System.out.println("enter n: ");
         int n=sc.nextInt();
         int x=n%7;
+        if(x==0){
+            x=7;
+        }
         switch(x){
             case 1 -> System.out.println("Sunday");
             case 2 -> System.out.println("Monday");
