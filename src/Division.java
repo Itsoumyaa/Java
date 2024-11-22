@@ -10,7 +10,7 @@ public class Division{
             int res=n1/n2;
             System.out.println(res);
         }
-        catch(ArithmeticException e){
+        catch(ArithmeticException | InputMismatchException e){
             System.out.println(e.getMessage());
             System.out.println("Division by zero not possible");
         }
